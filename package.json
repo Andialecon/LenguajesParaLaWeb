@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "nuestro primer proyecto de nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JUAN1703@bitbucket.org/JUAN1703/guia-hoteles.git"
+  },
+  "author": "Andrés Alemán",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/JUAN1703/guia-hoteles#readme",
+  "keywords": [
+    "juan1703"
+  ]
+}
