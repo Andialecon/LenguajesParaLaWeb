@@ -15,5 +15,8 @@
   "homepage": "https://bitbucket.org/JUAN1703/guia-hoteles#readme",
   "keywords": [
     "juan1703"
-  ]
+  ],
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
