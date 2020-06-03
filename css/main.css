@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.carousel-item {
+	width: 100%;
+	height: 600px;
+	
+}
+
+@media (max-width: 600px){
+	.carousel-item {
+		height: 280px;
+	}
+}
+
+.carousel-item img {
+	height: 100%;
+}
+
+.alto-auto{
+	height: auto;
+}
+
+.c-text {
+	color:white;
+
+}
+
+.card img {
+	height: 200px;
+	border: 1px solid silver;
+}
+
+.card  .bnt {
+	bottom:0px;
+}
+
+.avatars {
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.avatars img {
+	height: 50%px;
+	width: 50%;
+}
+
+.contactanos {
+	margin-top: 0px;
+	background-image: url("../imagenes/ubicaciones.jpeg");
+	background-size: cover;
+}
+
+.formulario {
+	height: 80%;
+	margin: 1em;
+	padding: 1em;
+}
+
+footer{
+	align-self: flex-end;
+}
+
+.footer {
+	height: 70px;
+}
+
+.footer img {
+	height:50px;
+}
+
