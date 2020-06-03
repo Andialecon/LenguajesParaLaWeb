@@ -58,7 +58,7 @@ document.getElementById("enviar").onclick = function click2(){
         case 'Administración de sitios': precio=3000000;
     }
 
-    alert("Hola Señor "+ name + ", los servicios que requiere tienen un valor aproximado de $" + (precio*cantidad));
+    alert("Hola "+ name + ", los servicios que requiere tienen un valor aproximado de $" + (precio*cantidad));
     
 
 }
