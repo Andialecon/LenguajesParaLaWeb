@@ -1,7 +1,6 @@
 
 //obtener elementos del inicio de sesion
 const usuario = document.getElementById("usuario");
-const   email = document.getElementById("email");
 const password = document.getElementById("password");
 const form = document.getElementById("form");
 const validacion = document.getElementById("validacion");
@@ -15,11 +14,6 @@ form.addEventListener("submit", validarCampo => {
         enviar=true;
     }
 
-    if (email.value.length <1){
-        mensaje += `Ingrese un correo electronico </br>`;
-        enviar=true;
-    }
-
     if (password.value.length <8){
         mensaje += `La contraseña es demasiado corta </br>`;
         enviar=true;
@@ -28,10 +22,9 @@ form.addEventListener("submit", validarCampo => {
     if (enviar){
         validacion.innerHTML=mensaje;
         mensaje="";
-        validarCampo.preventDefault()
+        validarCampo.preventDefault();
     }
     else {
-        
         alert("ENVIADO");
     }
 })

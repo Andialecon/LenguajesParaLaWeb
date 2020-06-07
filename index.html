@@ -316,7 +316,7 @@
         <div class="row align-items-center">
           
             <div class="col py-2">
-                <div class="card text-center" style="padding: 20px;">
+                <div class="text-center" style="padding: 20px;">
                     <h4>Escríbenos a traves de: </h4>
                     <p>marketing-digital@gmail.com</p>
                     <p>PBX: 5403231 ext. 107</p>
