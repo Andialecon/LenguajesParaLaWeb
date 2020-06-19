@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Pagina con Boostrap integrado</title>
+    <title>Marketing Digital</title>
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <!--Custom CSS-->
@@ -11,83 +11,68 @@
   
   <body>
     <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
-      
-      <a class="navbar-brand" href="index.html"> <b>Marketing Digital  <svg class="bi bi-graph-up" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"/>
-        <path fill-rule="evenodd" d="M14.39 4.312L10.041 9.75 7 6.707l-3.646 3.647-.708-.708L7 5.293 9.959 8.25l3.65-4.563.781.624z"/>
-        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4h-3.5a.5.5 0 0 1-.5-.5z"/>
-      </svg></b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#servicios">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#conocenos">Conócenos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cotizar">Cotizar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contactanos">Contactanos</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#registrarse">Registrarse</button>
-          </li>
-        </ul>
-      </div>
-
-      
-
-    </nav>
+    <?php
+      include "header.php";    
+    ?>
     
     <!-- Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
 
-          <div class="carousel-item active">
-            <img src="imagenes/primera.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>Tiendas Virtuales</h1>
+              <div class="carousel-item active">
+                <img src="imagenes/image.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Páginas Dinamicas</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/responsive.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/seo.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/tienda.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                
+                <img src="imagenes/primera.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Tiendas Virtuales</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/apps.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/responsive.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              
-            </div>
-          </div>
-          <div class="carousel-item">
-            
-            <img src="imagenes/cuarta.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              
-            </div>
-          </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+
         </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-
-    </div>
+   
 
     <!-- SERVICIOS -->
     <div class="container py-5" id="servicios" style="margin-bottom: 50px; color: black">
@@ -361,10 +346,10 @@
                   </button>
               </div>
               <div class="modal-body">
-                  <form action="" method="POST" id="form" >
+                  <form action="controlador/registro.php" method="POST" id="form" >
                       <div class="form-group">
                         <label for="usuario" class="col-form-label" >Usuario</label>
-                        <input type="text" class="form-control" id="usuario" value="">
+                        <input type="text" class="form-control" name="usuario" id="usuario" value="">
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
@@ -372,11 +357,39 @@
                       </div>
                       <div class="form-group">
                         <label for="recipient-name" class="col-form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="password" placeholder="Debe contener minimo 8 caracteres">
+                        <input type="password" class="form-control" name="contrasena" id="password" placeholder="Debe contener minimo 8 caracteres">
                       </div>
                       <button type="submit" class="btn btn-success">Enviar</button>
                       <p id="validacion"></p>
                   </form>
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">INICIAR SESIÓN</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <form action="controlador/login.php" method="POST" id="form2" >
+                      <div class="form-group">
+                        <label for="usuario2" class="col-form-label" >Usuario</label>
+                        <input type="text" name="usuario" class="form-control" id="usuario2" value="">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Contraseña</label>
+                        <input type="password" name="contrasena" class="form-control" id="password2" placeholder="Escriba aquí su Contraseña">
+                      </div>
+                      <button type="submit" class="btn btn-success">Enviar</button>
+                  </form>
+                  
               </div>
           </div>
       </div>
